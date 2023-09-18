@@ -19,6 +19,7 @@ Link to the relevant part of the LNbits Api: https://legend.lnbits.com/docs#/def
 
 
 WHERE:
+
 `description_hash` = the sha256 hash of metadata from decoded LNURL or lightning address  
 
 `callback` = callback url from decoded LNURL or lightning address  
@@ -28,6 +29,8 @@ WHERE:
 `comment` = transaction note that will appear in receiver's lightning wallet  
 
 `description` = memo that will appear in your LNbits wallet  
+
+
 
 
 
