@@ -34,7 +34,7 @@ WHERE:
 
 
 
-## Paying Lightning Addresses
+# Paying Lightning Addresses
 
 Lightning addresses are made up of a username and a domain name:
 
