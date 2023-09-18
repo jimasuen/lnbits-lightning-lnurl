@@ -3,9 +3,9 @@ Documentation on using LNbits Api to pay lighting addresses and LNURL
 
 Link to the relevant part of the LNbits Api: https://legend.lnbits.com/docs#/default/api_payments_pay_lnurl_api_v1_payments_lnurl_post
 
-# TLDR
+# TLDR;
 
-Retrieve callback URL and metadata from lightning address or LNURL.
+1. Retrieve callback URL and metadata from lightning address or LNURL.
 
 cURL for lightning address:
 
@@ -49,7 +49,7 @@ Sample response:
 
 
 
-Process payment using LNbits:
+2. Process payment using LNbits:
 
 
 ```curl -X 'POST' 
