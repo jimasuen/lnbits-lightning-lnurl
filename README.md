@@ -15,6 +15,8 @@ Link to the relevant part of the LNbits Api: https://legend.lnbits.com/docs#/def
     "comment": <string>,
     "description": <string>
 }'
+```
+
 
 WHERE:
 `description_hash` = the sha256 hash of metadata from decoded LNURL or lightning address
