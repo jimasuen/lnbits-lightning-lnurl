@@ -5,7 +5,7 @@ Link to the relevant part of the LNbits Api: https://legend.lnbits.com/docs#/def
 
 #TLDR
 
-`curl -X 'POST' 
+```curl -X 'POST' 
   'https://your-lnbits-endpoint.com/api/v1/payments/lnurl' 
   -H 'Content-Type: application/json' 
   -d '{
@@ -14,7 +14,7 @@ Link to the relevant part of the LNbits Api: https://legend.lnbits.com/docs#/def
     "amount": <int>,
     "comment": <string>,
     "description": <string>
-}'`
+}'
 
 WHERE:
 `description_hash` = the sha256 hash of metadata from decoded LNURL or lightning address
