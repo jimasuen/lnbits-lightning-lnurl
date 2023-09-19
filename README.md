@@ -8,7 +8,7 @@ https://legend.lnbits.com/docs#/default/api_payments_pay_lnurl_api_v1_payments_l
 
 # STEPS:
 
-1. Decode LNURL using LNbits API. Skip this if you're paying lightning address.
+1. Decode LNURL using LNbits API. Skip this if you're paying a lightning address.
 
 
     ```
