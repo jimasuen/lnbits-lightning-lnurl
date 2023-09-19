@@ -1,5 +1,5 @@
 # lnbits-lightning-lnurl
-Documentation on using LNbits Api to pay lighting addresses and LNURL
+Documentation on using LNbits API to pay lightning addresses and LNURL
 
 Link to the relevant part of the LNbits API: 
 https://legend.lnbits.com/docs#/default/api_payments_pay_lnurl_api_v1_payments_lnurl_post
