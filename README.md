@@ -80,7 +80,8 @@ https://legend.lnbits.com/docs#/default/api_payments_pay_lnurl_api_v1_payments_l
 
     ```
     curl -X 'POST' 
-      'https://your-lnbits-endpoint.com/api/v1/payments/lnurl' 
+      'https://your-lnbits-endpoint.com/api/v1/payments/lnurl'
+      -H "X-Api-Key: <ADMIN KEY>"
       -H 'Content-Type: application/json' 
       -d '{
         "description_hash": <string>,
