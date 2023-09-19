@@ -14,9 +14,9 @@ https://legend.lnbits.com/docs#/default/api_payments_pay_lnurl_api_v1_payments_l
     ```
     curl -X 'POST'
     https://your-lnbits-endpoint.com/api/v1/payments/decode
-    -d '{"data": <LNURL>}'
     -H "X-Api-Key: <INVOICE KEY>"
     -H "Content-type: application/json"
+    -d '{"data": <LNURL>}'
     ```
     
     
@@ -100,9 +100,9 @@ https://legend.lnbits.com/docs#/default/api_payments_pay_lnurl_api_v1_payments_l
     
     `amount` = amount to be paid; specified in millisats (sats to be paid * 1000)  
     
-    `comment` = transaction note that will appear in receiver's lightning wallet  
+    `comment` = transaction note that will appear in receiver's lightning wallet (write what you want)  
     
-    `description` = memo that will appear in your LNbits wallet  
+    `description` = memo that will appear in your LNbits wallet (write what you want)  
 
 
 
