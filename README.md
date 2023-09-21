@@ -95,7 +95,7 @@ https://legend.lnbits.com/docs#/default/api_payments_pay_lnurl_api_v1_payments_l
     
     WHERE:
     
-    `description_hash` = the sha256 hash of metadata from decoded LNURL or lightning address  
+    `description_hash` = the sha256 hash of parsed metadata from decoded LNURL or lightning address  
     
     `callback` = callback url from decoded LNURL or lightning address  
     
