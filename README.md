@@ -2,7 +2,10 @@
 Documentation on using LNbits API to pay lightning addresses and LNURL
 
 Link to the relevant part of the LNbits API: 
-https://legend.lnbits.com/docs#/default/api_payments_pay_lnurl_api_v1_payments_lnurl_post
+https://legend.lnbits.com/docs#/default/api_payments_pay_lnurl_api_v1_payments_lnurl_post  
+
+For testing purposes, you can inspect your LNURL and lightning address and view the expected description_hash using this tool:
+https://jimasuen.github.io/tools/decoder/
 
 
 
@@ -112,3 +115,4 @@ https://legend.lnbits.com/docs#/default/api_payments_pay_lnurl_api_v1_payments_l
 
 1. On lightning addresses: https://github.com/andrerfneves/lightning-address/blob/master/README.md
 2. On LNURL payRequest: https://github.com/lnurl/luds/blob/luds/06.md
+3. Tool to view expected description_hash of parsed metadata from decoded LNURL or lightning address: https://jimasuen.github.io/tools/decoder/
