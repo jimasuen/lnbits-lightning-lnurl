@@ -2,7 +2,7 @@
 Documentation on using LNbits API to pay lightning addresses and LNURL
 
 Link to the relevant part of the LNbits API: 
-https://legend.lnbits.com/docs#/default/api_payments_pay_lnurl_api_v1_payments_lnurl_post  
+https://demo.lnbits.com/docs#/Payments/api_payments_pay_lnurl_api_v1_payments_lnurl_post 
 
 For testing purposes, you can inspect your LNURL and lightning address and view the expected `description_hash` using this tool:
 https://lightninginspector.mysatoshikit.com/
